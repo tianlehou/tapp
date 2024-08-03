@@ -1,0 +1,9 @@
+Colocar las 2 lineas de llamado en el mismo .html donde se desee mostrar el componente
+
+    1.  Colocar el contenedor
+<!-- Header-Menu -->
+<div id="nav-header-container"></div>
+
+    2. Colocar la direccion de nav-header.js debajo del script.js
+    <script src="script.js" defer type="module"></script>
+<script src="../../components/nav-header/nav-header.js"></script>

@@ -1,0 +1,54 @@
+<!-- register-modal.html -->
+<div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Formulario de Registro</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <form class="row g-3 needs-validation" id="modalForm" novalidate>
+            <div class="col-md-6">
+              <label for="validationCustomUnidadModal" class="form-label">Unidad</label>
+              <input type="text" class="form-control" id="validationCustomUnidadModal" placeholder="Unidad" required>
+              <div class="invalid-feedback">Por favor, ingrese una unidad.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustomPlacaModal" class="form-label">Placa</label>
+              <input type="text" class="form-control" id="validationCustomPlacaModal" placeholder="Placa" required>
+              <div class="invalid-feedback">Por favor, ingrese una placa.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustomNombreModal" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="validationCustomNombreModal" placeholder="Nombre" required>
+              <div class="invalid-feedback">Por favor, ingrese un nombre.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustomCedulaModal" class="form-label">Cédula</label>
+              <input type="text" class="form-control" id="validationCustomCedulaModal" placeholder="Cédula" required>
+              <div class="invalid-feedback">Por favor, ingrese una cédula.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustomWhatsappModal" class="form-label">Whatsapp</label>
+              <input type="text" class="form-control" id="validationCustomWhatsappModal" placeholder="Whatsapp" required>
+              <div class="invalid-feedback">Por favor, ingrese un número de Whatsapp.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustomEmailModal" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="validationCustomEmailModal" placeholder="Correo" required autocomplete="username">
+              <div class="invalid-feedback">Por favor, ingrese un correo válido.</div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationCustomPasswordModal" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="validationCustomPasswordModal" placeholder="Contraseña" required autocomplete="current-password">
+              <div class="invalid-feedback">Por favor, ingrese una contraseña.</div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit" id="submitModalForm-btn">Registrar</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
