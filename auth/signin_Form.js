@@ -1,5 +1,5 @@
 import { signInWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/10.11.0/firebase-auth.js";
-import { auth } from '../Environment/firebaseConfig.js';
+import { auth } from '../environment/firebaseConfig.js';
 
 const signInForm = document.querySelector('#signInForm');
 
